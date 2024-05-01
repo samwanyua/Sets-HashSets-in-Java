@@ -16,7 +16,7 @@ public class Main {
 
 
          */
-        Set<String> names = new HashSet<>();
+        Set<String> names = new TreeSet<>();
         // TreeSet - order them naturally - alphabetical order
         // HashSet -  faster than treeSet
         // Use treeSet when you want a set but you really care about the order
